@@ -1,0 +1,94 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background-color:9CE5FF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.column
+{
+  width: 50%;
+  float: left;
+}
+.icon
+{
+  border-radius: 50%;
+  border: 5px solid white;
+  height: 300px;
+  width: 300px;
+  transform: translateX(50%);
+}
+
+.hero-image
+{
+  background: url(home-back-1.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-text
+{
+  position: relative;
+  text-align:center;
+  padding: 20px;
+  color: black;
+  transform: translate(0%, 100%);
+}
+
+.hero-text button
+{
+  background-color: 9CE5FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.hero-text button a:link, a:visited
+{
+  color: black;
+  padding: 14px;
+  display: inline-block;
+  text-decoration: none;
+}
+.hero-text button a:hover
+{
+  background-color: 39C8FC;
+  border-radius: 4px;
+}
+
+.main-nav
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555;
+}
+.main-nav li
+{
+  float:left;
+  display: inline;
+}
+.main-nav li a
+{
+  float: left;
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.main-nav li a:hover
+{
+  background-color:#333;
+}
+
+.main-nav li.active a
+{
+  background-color:9CE5FF;
+}
