@@ -42,7 +42,7 @@ body
 
 .hero-text button
 {
-  background-color: 9CE5FF;
+  border: 5px solid white;
   color: white;
   border: none;
   border-radius: 4px;
@@ -50,7 +50,7 @@ body
 
 .hero-text button a:link, a:visited
 {
-  color: black;
+  color: white;
   padding: 14px;
   display: inline-block;
   text-decoration: none;
